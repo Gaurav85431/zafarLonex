@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const multer = require("multer");
 const bodyParser = require("body-parser");
-const path = require("path");
+const path = require('path');
 
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended: true }));

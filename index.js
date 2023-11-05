@@ -4,6 +4,7 @@ const app = express();
 const http = require('http');
 const cors = require("cors");
 const mongoose = require("mongoose");
+const path = require('path');
 mongoose.connect("mongodb+srv://merningday123:merningday123@cluster0.jtxz4yj.mongodb.net/software?retryWrites=true&w=majority")
 
 
