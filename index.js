@@ -1,4 +1,3 @@
-
 const express = require("express");
 const app = express();
 const http = require('http');
@@ -25,7 +24,7 @@ app.listen(5000, function () {
 */
 
 const PORT = 5000;
-const DB = "mongodb+srv://merningday123:merningday123@cluster0.jtxz4yj.mongodb.net/software?retryWrites=true&w=majority";
+const DB = "mongodb+srv://a:a@lonex.l1e2gae.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(DB)
     .then(() => {
