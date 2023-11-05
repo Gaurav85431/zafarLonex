@@ -18,11 +18,11 @@ app.use(cors());
 // app.use("/api", postRoutes);
 const post_route = require("./routes/postRoute")
 app.use("/api", post_route);
-
+/*
 app.listen(5000, function () {
     console.log("Server is ready on port 5000");
 });
-
+*/
 
 const PORT = 5000;
 const DB = "mongodb+srv://merningday123:merningday123@cluster0.jtxz4yj.mongodb.net/software?retryWrites=true&w=majority";
